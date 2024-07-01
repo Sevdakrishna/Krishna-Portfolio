@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-...">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="nav-logo"><b>Krishna Sevada</b><br>
+                <p id="sub">Bachelor of Engineering degree in Computer Engineering</p></a>
+            
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    
+
+    <main>
+        <section id="home" class="home">
+            <div class="home-content">
+                <div class="home-text">
+                    <h1>Hi, I'm Krishna</h1>
+                    <p>Web Developer | Designer | Software Developer</p>
+                    <a href="#contact" class="btn">Contact Me</a>
+                    <a href="Krishna Resume.pdf" class="btn">Resume</a>
+                </div>
+                <!--div class="home-img">
+                    <img src="{{ url_for('static', filename='images/pg.webp') }}" alt="Krishna's Cartoon Image">
+                    
+                </div-->
+                <div class="home-img">
+                    <img src="image/krishna.jpeg" alt="About Image">
+                </div>
+            </div>
+            <div class="home-overlay"></div>
+        </section>
+        
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2 class="section-titles">About Me</h2>
+                <div class="about-text">
+                    <p>Hello, I'm Krishna, a passionate and driven 4th-year student pursuing a Bachelor's degree in Computer Engineering at Indira College of Engineering and Management. With a deep fascination for technology and a keen interest in problem-solving,
+                        I have dedicated my academic journey to honing my skills in programming, software development, and computer systems.</p>
+        
+                    <p>Throughout my college years, I have immersed myself in various projects and coursework, allowing me to gain hands-on experience in languages such as C++, Java, Python, and web technologies like HTML, CSS, and JavaScript. I have a strong
+                        foundation in data structures, algorithms, and software engineering principles, which has enabled me to develop efficient and scalable solutions.</p>
+        
+        
+                    <p>Beyond academics, I have actively participated in coding competitions and hackathons, continuously challenging myself and expanding my knowledge. These experiences have honed my problem-solving abilities, fostered teamwork skills,
+                        and exposed me to real-world scenarios within the tech industry.</p>
+        
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="skills-header">
+                <h2 class="section-titles">My Skills</h2>
+            </div>
+            <div class="skills-container">
+                
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                    <p>Level: Expert</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <p>Level: Advanced</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>Level: Intermediate</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-cuttlefish"></i>
+                    <h3>C++</h3>
+                    <p>Level: Intermediate</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                    <p>Level: Intermediate</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Level: Intermediate</p>
+                </div>
+                
+            </div>
+        </section>
+        
+        
+<section id="projects" class="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <img src="image/project1.png" alt="Student Attendance Management System">
+        <h3>Student Attendance Management System</h3>
+        <p>A web-based application designed to streamline the process of tracking and managing student attendance records. Built with HTML, CSS, JavaScript, and PHP, it provides an efficient and user-friendly interface for teachers and administrators.</p>
+        <a href="https://github.com/Sevdakrishna/Student_Attendance_management.git" target="_blank" class="btn">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="image/project2.png" alt="This Portfolio">
+        <h3>This Portfolio website</h3>
+        <p>A personal portfolio website showcasing my skills, projects, and experience. Built using HTML, CSS, and JavaScript in Flask FrameWork, it features an interactive design, smooth animations, and responsive layout for optimal viewing on various devices and show my Skills.</p>
+        <a href="https://github.com/Sevdakrishna/Portfolio-flask.git" target="_blank" class="btn">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="image/project3.png" alt="Krishna's Resume Builder">
+        <h3>Krishna's Resume Builder Website</h3>
+        <p>A streamlined resume builder platform for creating professional resumes effortlessly. Users can input their details and generate polished resumes using PHP, HTML, CSS, Bootstrap, JavaScript, jQuery, and AJAX.</p>
+        <a href="https://github.com/Sevdakrishna/Krishna-resume-builder.git" target="_blank" class="btn">View Project</a>
+      </div>
+    </div>
+  </section>
+
+          <section id="contact" class="contact">
+            <h2 class="section-titles">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-envelope"></i> sevdakrishna@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 9373022171</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Pune, India</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/sevdakrishna" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/krishna-sevda" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Sevdakrishna" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="d760d199-4ec0-41b4-b992-266deab24836">
+                    <h2 class="form-heading">Send Your Details To Let Me Know Your Requirements</h2>
+                    <hr><br><br>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email ID" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Enter Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Krishna's Portfolio</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100076563281094" target="_self"><i class="fab fa-facebook"></i></a>
+                <a href="https://github.com/Sevdakrishna" target="_self"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/sevdakrishna" target="_self"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/krishna-sevda" target="_self"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
